@@ -1,0 +1,123 @@
+html, body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: aliceblue;
+font-family: Arial, sans-serif;
+}
+
+header{
+background-color: white;
+}
+
+.logo{
+padding: 10px;
+text-align: center;
+width: 100%;
+}
+
+.logo img{
+height: 60px;
+}
+
+.Hnav{
+display: flex;
+justify-content: space-between;
+background-color: #222;
+padding: 10px 20px;
+}
+
+.Hnav a{
+color: white;
+margin: 0 10px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.navActive{
+text-decoration: underline;
+}
+
+main{
+padding: 20px;
+}
+
+.sec1, .sec2{
+background: white;
+padding: 20px;
+margin-bottom: 20px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+border-radius: 5px;
+}
+
+footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+padding: 20px;
+}
+
+footer img{
+height: 50px;
+}
+
+.Fnav a{
+color: white;
+margin: 0 15px;
+text-decoration: none;
+}
+
+.content-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-row img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.content-row p {
+    flex: 1;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.big-btn, .small-btn {
+    padding: 15px 40px;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #d3d3d3;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.small-btn-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
